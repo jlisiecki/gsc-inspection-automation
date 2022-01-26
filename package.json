@@ -1,0 +1,31 @@
+{
+    "name": "gsc-inspection-automation",
+    "version": "1.0.0",
+    "description": "Automation tool for Google Search Console Inspection",
+    "main": "api.js",
+    "scripts": {
+        "api": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jlisiecki/gsc-inspection-automation.git"
+    },
+    "keywords": [
+        "google",
+        "search",
+        "console",
+        "gsc",
+        "inspection",
+        "automation"
+    ],
+    "author": "Jakub Lisiecki",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jlisiecki/gsc-inspection-automation/issues"
+    },
+    "homepage": "https://github.com/jlisiecki/gsc-inspection-automation#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.2"
+    }
+}
